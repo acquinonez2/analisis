@@ -37,3 +37,4 @@ p_sintomas = p_sintomas_given_covid * p_covid + p_sintomas_given_NOcovid *( 1 - 
 p_covid_given_sintomas = p_sintomas_given_covid * p_covid /p_sintomas
 
 print (f"La probabilidad de que el paciente tenga covid dados los sintomas es: {p_covid_given_sintomas}")
+La probabilidad de que el paciente tenga covid dados los sintomas es: 0.9999999998295609
